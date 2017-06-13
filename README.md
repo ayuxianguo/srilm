@@ -8,15 +8,10 @@
 ###### &emsp;&emsp;&emsp;1   wget TCL： http://www.tcl.tk/software/tcltk/download.html
 ###### &emsp;&emsp;&emsp;2    install TCL
 ###### &emsp;&emsp;&emsp;&emsp;cd unix
-
 ###### &emsp;&emsp;&emsp;&emsp;./configured 
-
 ###### &emsp;&emsp;&emsp;&emsp;make 
-
 ###### &emsp;&emsp;&emsp;&emsp;make install 
-
 ##### &emsp;&emsp;&emsp;3   install srilm 
-
 ###### &emsp;&emsp;&emsp;&emsp;1   unzip 
 
 ###### &emsp;&emsp;&emsp;&emsp;2   in srilm directory modify  Makefile 
