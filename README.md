@@ -3,19 +3,20 @@
 
 #  Install Steps: 
 
-#### &emsp;&emsp;1    install dependent：apt-get install tcl-dev tk-dev mesa-common-dev libjpeg-dev libtogl-dev gawk gzip bzip2 p7zip  
+##### &emsp;&emsp;1    install dependent：apt-get install tcl-dev tk-dev mesa-common-dev libjpeg-dev libtogl-dev gawk gzip bzip2 p7zip  
 
-## &emsp;&emsp;2    TCL install </br>
-### &emsp;&emsp;&emsp;1   wget TCL： http://www.tcl.tk/software/tcltk/download.html </br>
-### &emsp;&emsp;&emsp;2    install TCL </br>
-### &emsp;&emsp;&emsp;&emsp;cd unix </br>
-#### &emsp;&emsp;&emsp;&emsp;./configured </br>  
-&emsp;&emsp;&emsp;&emsp;make </br>
-&emsp;&emsp;&emsp;&emsp;make install </br>
-&emsp;&emsp;&emsp;3   install srilm </br>
-&emsp;&emsp;&emsp;&emsp;1   unzip </br>
-&emsp;&emsp;&emsp;&emsp;2   in srilm directory modify  Makefile </br>
-&emsp;&emsp;&emsp;&emsp;&emsp;1   SRILM =/home/speech/stolcke/project/srilm/devel ---->   SRILM = /data/yuxianguo/tools/srilm<your srilm path>   </br>
+##### &emsp;&emsp;2    TCL install </br>
+###### &emsp;&emsp;&emsp;1   wget TCL： http://www.tcl.tk/software/tcltk/download.html </br>
+###### &emsp;&emsp;&emsp;2    install TCL </br>
+###### &emsp;&emsp;&emsp;&emsp;cd unix </br>
+###### &emsp;&emsp;&emsp;&emsp;./configured </br>  
+###### &emsp;&emsp;&emsp;&emsp;make </br>
+###### &emsp;&emsp;&emsp;&emsp;make install </br>
+
+##### &emsp;&emsp;&emsp;3   install srilm </br>
+###### &emsp;&emsp;&emsp;&emsp;1   unzip </br>
+###### &emsp;&emsp;&emsp;&emsp;2   in srilm directory modify  Makefile </br>
+####### &emsp;&emsp;&emsp;&emsp;&emsp;1   SRILM =/home/speech/stolcke/project/srilm/devel ---->   SRILM = /data/yuxianguo/tools/srilm<your srilm path>   </br>
 &emsp;&emsp;&emsp;&emsp;&emsp;2   MACHINE_TYPE := $(shell$(SRILM)/sbin/machine-type)  ---->  MACHINE_TYPE := i686-m64    </br>
 &emsp;&emsp;&emsp;&emsp;&emsp;3  in common directory：</br>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;1    GAWK=/usr/bin/awk ----> /usr/bin/gawk </br>
