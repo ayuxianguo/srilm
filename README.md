@@ -2,10 +2,8 @@
 <h4> This is the code from http://www.speech.sri.com/projects/srilm/ </h4>
 
 <h3> Install Steps: </h3>
-1    安装依赖包：apt-get
-install tcl-dev tk-dev mesa-common-dev libjpeg-dev libtogl-dev
-安装 gawk gzip bzip2 p7zip 
-2    TCL 安装：
+    1    install dependet：apt-get install tcl-dev tk-dev mesa-common-dev libjpeg-dev libtogl-dev gawk gzip bzip2 p7zip 
+    2    TCL 安装：
 1   下载： http://www.tcl.tk/software/tcltk/download.html
 2    安装TCL
     cd unix
