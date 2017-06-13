@@ -3,7 +3,7 @@
 
 <h3> Install Steps: </h3>
 &emsp;&emsp;1    install dependent：apt-get install tcl-dev tk-dev mesa-common-dev libjpeg-dev libtogl-dev gawk gzip bzip2 p7zip  </br>
-&emsp;&emsp;2    TCL install </br>：
+&emsp;&emsp;2    TCL install </br>
 &emsp;&emsp;&emsp;1   wget TCL： http://www.tcl.tk/software/tcltk/download.html </br>
 &emsp;&emsp;&emsp;2    install TCL </br>
 &emsp;&emsp;&emsp;&emsp;cd unix </br>
