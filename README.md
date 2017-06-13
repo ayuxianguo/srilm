@@ -17,12 +17,12 @@
 &emsp;&emsp;&emsp;&emsp;&emsp;2   MACHINE_TYPE := $(shell$(SRILM)/sbin/machine-type)  ---->  MACHINE_TYPE := i686-m64    </br>
 &emsp;&emsp;&emsp;&emsp;&emsp;3  in common directory：</br>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;1    GAWK=/usr/bin/awk ----> /usr/bin/gawk </br>
-<h4> &emsp;&emsp;&emsp;&emsp;&emsp;4   modify env path  </h4>
+&emsp;&emsp;&emsp;&emsp;&emsp;4   modify env path  </br>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;gedit /etc/profile </br>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;export PATH="$PATH:/data/yuxianguo/tools/srilm/bin/i686-m64:/data/yuxianguo/tools/srilm/bin"   </br>
-<h4> &emsp;&emsp;&emsp;&emsp;&emsp;5   compile srilm </h4>
+&emsp;&emsp;&emsp;&emsp;&emsp;5   compile srilm </br>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;make World   </br>
-<h4> &emsp;&emsp;&emsp;&emsp;&emsp;6    test </h4>
+&emsp;&emsp;&emsp;&emsp;&emsp;6    test </br>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;make test  </br>
 
 
