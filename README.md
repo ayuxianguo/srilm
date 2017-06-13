@@ -2,7 +2,8 @@
 <h4> This is the code from http://www.speech.sri.com/projects/srilm/ </h4>
 
 <h3> Install Steps: </h3>
-<h4> &emsp;&emsp;1    install dependent：apt-get install tcl-dev tk-dev mesa-common-dev libjpeg-dev libtogl-dev gawk gzip bzip2 p7zip  </h4> </br>
+<h4> &emsp;&emsp;1  install dependent：apt-get install tcl-dev tk-dev mesa-common-dev libjpeg-dev libtogl-dev gawk gzip bzip2 p7zip  </h4> 
+
 &emsp;&emsp;2    TCL install </br>
 &emsp;&emsp;&emsp;1   wget TCL： http://www.tcl.tk/software/tcltk/download.html </br>
 &emsp;&emsp;&emsp;2    install TCL </br>
