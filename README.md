@@ -2,11 +2,11 @@
 <h4> This is the code from http://www.speech.sri.com/projects/srilm/ </h4>
 
 <h3> Install Steps: </h3>
-&emsp;&emsp;&emsp;&emsp;1    install dependent：apt-get install tcl-dev tk-dev mesa-common-dev libjpeg-dev libtogl-dev gawk gzip bzip2 p7zip  </br>
-&emsp;&emsp;&emsp;&emsp;2    TCL 安装 </br>：
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;1   下载： http://www.tcl.tk/software/tcltk/download.html </br>
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;2    安装TCL </br>
-                                                    cd unix </br>
+&emsp;&emsp;1    install dependent：apt-get install tcl-dev tk-dev mesa-common-dev libjpeg-dev libtogl-dev gawk gzip bzip2 p7zip  </br>
+&emsp;&emsp;2    TCL 安装 </br>：
+&emsp;&emsp;&emsp;1   下载： http://www.tcl.tk/software/tcltk/download.html </br>
+&emsp;&emsp;&emsp;2    安装TCL </br>
+&emsp;&emsp;&emsp;&emsp;cd unix </br>
                                                     ./configured </br>  
                                                     make </br>
                                                     make install </br>
