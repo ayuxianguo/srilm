@@ -18,7 +18,7 @@
 &emsp;&emsp;&emsp;&emsp;&emsp;3  in common directory：</br>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;1    GAWK=/usr/bin/awk ----> /usr/bin/gawk </br>
 &emsp;&emsp;&emsp;&emsp;&emsp;4   modify env path  </br>
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;gedit /etc/profile 
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;gedit /etc/profile </br>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;export PATH="$PATH:/data/yuxianguo/tools/srilm/bin/i686-m64:/data/yuxianguo/tools/srilm/bin"   </br>
 &emsp;&emsp;&emsp;&emsp;&emsp;5   compile srilm </br>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;make World   </br>
