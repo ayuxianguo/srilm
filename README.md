@@ -3,11 +3,11 @@
 
 #  Install Steps: 
 
-##### &emsp;&emsp;1    install dependent：apt-get install tcl-dev tk-dev mesa-common-dev libjpeg-dev libtogl-dev gawk gzip bzip2 p7zip  
-##### &emsp;&emsp;2    TCL install 
-###### &emsp;&emsp;&emsp;1   wget TCL： http://www.tcl.tk/software/tcltk/download.html 
-###### &emsp;&emsp;&emsp;2    install TCL 
-###### &emsp;&emsp;&emsp;&emsp;cd unix 
+##### &emsp;&emsp;1    install dependent：apt-get install tcl-dev tk-dev mesa-common-dev libjpeg-dev libtogl-dev gawk gzip bzip2 p7zip
+##### &emsp;&emsp;2    TCL install
+###### &emsp;&emsp;&emsp;1   wget TCL： http://www.tcl.tk/software/tcltk/download.html
+###### &emsp;&emsp;&emsp;2    install TCL
+###### &emsp;&emsp;&emsp;&emsp;cd unix
 
 ###### &emsp;&emsp;&emsp;&emsp;./configured 
 
